@@ -33,7 +33,7 @@ plugins {
 }
 
 group = 'me.lorenzo0111'
-version = '2.3'
+version = '2.3.1'
 description = 'RocketPlaceholders'
 
 ext {
@@ -66,6 +66,7 @@ dependencies {
     implementation('com.github.cryptomorin:XSeries:9.3.0')
     implementation('net.kyori:adventure-api:4.12.0')
     implementation('net.kyori:adventure-text-serializer-legacy:4.12.0')
+    implementation("mysql:mysql-connector-java:8.0.32")
     implementation("com.github.l1m0n3:HexiTextLib:b9e30055b7") {
         exclude module: "annotations"
     }
